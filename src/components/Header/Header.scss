@@ -1,0 +1,26 @@
+@use "../../partials/fonts" as *;
+@use "../../partials/styles" as *;
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    &__img {
+        height: 40px;
+    }
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    &__list {
+        display: flex;
+        gap: 1rem;
+    }
+    &__item {
+        list-style: none;
+    }
+}

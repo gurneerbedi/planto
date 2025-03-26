@@ -1,0 +1,25 @@
+//colors
+$primary-background: #1f271b;
+$text-color: #eee;
+
+
+*, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: $primary-background;
+}
+
+@mixin tablet {
+  @media (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: 64rem) {
+    @content;
+  }
+}
+
+
